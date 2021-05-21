@@ -1,5 +1,7 @@
 import React from 'react';
 
+const stmt = 'My Statements';
+
 const Para = () => {
     return (
         <p><span className="dsc">{`You are now using React version >16.0.0.
@@ -19,17 +21,18 @@ const lsts = () => {
 
 const rsts = () => {
     return (
-        <ol>
-            <li></li>
-            <li></li>
-        </ol>
+        <p></p>
     );
 }
 
 const stls = () => {
     return (
-        <p></p>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ol>
     );
 }
 
-export default Para;
+export default Para;    // Default variable or function export
+export {stmt, lsts, rsts, stls};   // Other variables or functions export

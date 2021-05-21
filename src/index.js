@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 
 
-
 /* Using React Normal JSX Templates */
 ReactDOM.render(
   // Multiple Elements using React.Fragment Sugar Template form.
