@@ -1,0 +1,51 @@
+.hdng {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #6d68b0;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px #312e56, 5px -5px 5px #312e56, -5px 5px 5px #312e56, -5px -5px 5px #312e56;
+}
+
+.hdng:hover {
+    color: #b8b6d8;
+}
+
+.calc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 2% 0 2%;
+    font-size: 30px;
+    color: #71a2b5;
+}
+
+.cntanr {
+    font-size: 20px;
+    font-family: 'KoHo', sans-serif;
+    color: #b39ac5;
+    text-shadow: 1px 1px 10px #171629, 1px -1px 10px #171629, -1px 1px 10px #171629, -1px -1px 10px #171629;
+    background-color: #3a3568;
+    padding: 2%;
+}
+
+.phtgrp {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: 5px 5px 10px 2px #312e56, 5px -5px 10px 2px #312e56, -5px 5px 10px 2px #312e56, -5px -5px 10px 2px #312e56;
+    margin: 1%;
+}
+
+.phts {
+    width: 33.3%;
+    height: 300px;
+    min-width: 300px;
+    flex-wrap: wrap;
+}
+
+.phts img {
+    width: 100%;
+    height: 100%;
+}
