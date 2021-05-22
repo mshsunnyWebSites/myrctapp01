@@ -1,3 +1,4 @@
+
 /* React Array */
 const carddata = [
     {
@@ -5,7 +6,7 @@ const carddata = [
         imgsrc: 'https://picsum.photos/1500/1000',
         imgalt: 'randomphoto1',
         titl: 'Phto Title1',
-        catgry: 'Random Original Full 4k Photo Series',
+        catgry: 'Random Original Full HD Photo Series',
         lnk: 'https://picsum.photos/1500/700'
     }
     ,
@@ -14,7 +15,7 @@ const carddata = [
         imgsrc: 'https://picsum.photos/1500/999',
         imgalt: 'randomphoto2',
         titl: 'Phto Title2',
-        catgry: 'Random Original Full 4k Photo Series',
+        catgry: 'Random Original Full HD Photo Series',
         lnk: 'https://picsum.photos/1500/699'
     }
     ,
@@ -41,7 +42,7 @@ const carddata = [
         imgsrc: 'https://picsum.photos/1500/996',
         imgalt: 'randomphoto5',
         titl: 'Phto Title5',
-        catgry: 'Random Original Full 4k Photo Series',
+        catgry: 'Random Original Full HD Photo Series',
         lnk: 'https://picsum.photos/1500/696'
     }
     ,

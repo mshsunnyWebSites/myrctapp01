@@ -55,6 +55,7 @@ const cssentrstyl = () => {
     }
     else {
         document.getElementById('grtng').style.color='#6e6e6e';
+        document.getElementById('grtng').innerHTML='OMG,';
     }
 }
 
@@ -73,6 +74,8 @@ const cssleavstyl = () => {
     }
     else {
         document.getElementById('grtng').style.color='black';
+        document.getElementById('grtng').innerHTML=greetng;
+
     }
 }
 
