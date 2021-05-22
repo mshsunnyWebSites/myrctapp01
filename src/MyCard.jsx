@@ -1,21 +1,14 @@
 import React from 'react';
+import Mphts from './Myphtos';
+import Mcrdinf from './Mycrdinf';
 
 
-const Crd = (props) => {
+const Crd = (myprops) => {
     return (
         <>
             <div className="crd">
-                <img src={props.imgsrc} alt={props.imgalt} />
-                <div className="crdinf">
-                    <div className="crdtitl">Title : <span>{props.titl}</span></div>
-                    <div className="crdcat">Category : <span>{props.catgry}</span></div>
-                    <div className="crdlnk">
-                        Link : 
-                        <a href={props.lnk} target="_blank">
-                            <button>Watch Now</button>
-                        </a>
-                    </div>
-                </div>
+                <Mphts imgsrc={myprops.imgsrc} imgalt={myprops.imgalt} />
+                <Mcrdinf titl={myprops.titl} catgry={myprops.catgry} lnk={myprops.lnk} />
             </div>
         </>
     );

@@ -4,18 +4,14 @@ import carddata from './Mycarddata';
 
 
 
-const Phtos = () => {
+const Phtogal = () => {
     return (
-        // <div className="phtgrp">
-        // <div className="phts"><img src={imag1} alt="randomphoto1"/></div>
-        // <div className="phts"><img src={imag2} alt="randomphoto2"/></div>
-        // <div className="phts"><a href={lnk1} target="_picsum"><img src={imag3} alt="randomphotolink3"/></a></div>
-        // </div>
         <>
             <div className="crdgrps">
                 {carddata.map((curval) => {
                     return (
                         <Crd
+                        key={curval.cdid}
                         imgsrc={curval.imgsrc}
                         imgalt={curval.imgalt}
                         titl={curval.titl}
@@ -29,4 +25,4 @@ const Phtos = () => {
     );
 }
 
-export default Phtos;
+export default Phtogal;

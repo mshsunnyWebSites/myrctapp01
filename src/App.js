@@ -4,7 +4,7 @@ import Hding from './Hding';
 import Para, {stmt, lsts, stls} from './Para';   // Default & Other Mentioned variables or functions import
 import * as aldta from './Datas';   // All variables or functions import
 import Dttm from './Dttm';
-import Phtos from './Phtos';
+import Phtogal from './Phtogallery';
 import './mystyl.css';
 
 
@@ -22,7 +22,7 @@ function App() {
           <li>{aldta.wtls()}</li>
         </ul>
         <Dttm/>
-        <Phtos/>
+        <Phtogal/>
       </div>
 
       {/* <div className="App">
