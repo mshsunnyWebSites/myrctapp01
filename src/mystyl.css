@@ -49,16 +49,19 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: stretch;
+    align-content: space-around;
     box-shadow: 5px 5px 10px 2px #312e56, 5px -5px 10px 2px #312e56, -5px 5px 10px 2px #312e56, -5px -5px 10px 2px #312e56;
     height: auto;
     margin: 1%;
+    padding: 2%;
 }
 
 .crd {
-    width: 33.3%;
+    flex-wrap: wrap;
+    width: 29.3%;
     height: 400px;
     min-width: 300px;
-    flex-wrap: wrap;
+    margin: 2%;
 }
 
 .crd img {

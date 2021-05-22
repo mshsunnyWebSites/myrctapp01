@@ -1,12 +1,8 @@
 import React from 'react';
-import Crd from './MyCard';
+import Crd from './MyCard';     // Card Structure importing
+import carddata from './Mycarddata';
 
 
-const imag1='https://picsum.photos/1500/700';
-const imag2='https://picsum.photos/1500/699';
-const imag3='https://picsum.photos/1500/698';
-
-const lnk1='https://picsum.photos/';
 
 const Phtos = () => {
     return (
@@ -17,29 +13,17 @@ const Phtos = () => {
         // </div>
         <>
             <div className="crdgrps">
-                <Crd
-                imgsrc={imag1}
-                imgalt='randomphoto1'
-                titl='Phto Title1'
-                catgry='Random Original Full 4k Photo Series'
-                lnk='Phtolink1'
-                />
-
-                <Crd
-                imgsrc={imag2}
-                imgalt='randomphoto2'
-                titl='Phto Title2'
-                catgry='Random Original Full 4k Photo Series'
-                lnk='Phtolink2'
-                />
-
-                <Crd
-                imgsrc={imag3}
-                imgalt='randomphoto3'
-                titl='Phto Title3'
-                catgry='Random Original Full 4k Photo Series'
-                lnk={lnk1}
-                />
+                {carddata.map((curval) => {
+                    return (
+                        <Crd
+                        imgsrc={curval.imgsrc}
+                        imgalt={curval.imgalt}
+                        titl={curval.titl}
+                        catgry={curval.catgry}
+                        lnk={curval.lnk}
+                        />
+                    );
+                })}
             </div>
         </>
     );
