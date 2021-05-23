@@ -4,16 +4,18 @@ import Hding from './Hding';
 import Para, {stmt, lsts, stls} from './Para';   // Default & Other Mentioned variables or functions import
 import * as aldta from './Datas';   // All variables or functions import
 import Dttm from './Dttm';
+import Msrch from './Mysrch';
 import Phtogal from './Phtogallery';
+// import Mntf from './Myntf';
 import './mystyl.css';
 
 
 function App() {
   return (
     <>
-      <Hding/>
+      <Hding />
       <div className="cntanr">
-        <Para/>
+        <Para />
         <span>{stmt}</span>
         <span>{stls()}</span>
         <ul>
@@ -21,8 +23,10 @@ function App() {
           <li>{aldta.ksts()}</li>
           <li>{aldta.wtls()}</li>
         </ul>
-        <Dttm/>
-        <Phtogal/>
+        <Dttm />
+        <Msrch />
+        {/* <Mntf /> */}
+        <Phtogal />
       </div>
 
       {/* <div className="App">
